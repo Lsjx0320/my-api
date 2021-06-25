@@ -12,7 +12,7 @@ const COLLECTION_NAME_2 = "daily_usage_carpark";
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-var database, collection_1, collection_2;
+
 
 
 app.post("/carpark", (request, response) => {
